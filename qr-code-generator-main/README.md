@@ -17,7 +17,7 @@ QR Code Generator is a simple web application that allows you to generate QR cod
 
 ## Demo
 
-You can access the live demo of the QR Code Generator [here](https://kaushaldhrangad.github.io/qr-code-generator/).
+You can access the live demo of the QR Code Generator [here](https://Tanishq1627.github.io/qr-code-generator/).
 
 ## Features
 
@@ -33,7 +33,7 @@ As the QR Code Generator is a client-side application, you can use it directly w
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/kaushaldhrangad/qr-code-generator.git
+git clone https://github.com/Tanishq1627/qr-code-generator.git
 ```
 
 2. Navigate to the project directory:
@@ -46,7 +46,7 @@ cd qr-code-generator
 
 ## Usage
 
-1. Open the QR Code Generator in your web browser by accessing the [live demo](https://kaushaldhrangad.github.io/qr-code-generator/) or hosting it locally as described in the Installation section.
+1. Open the QR Code Generator in your web browser by accessing the [live demo](https://Tanishq1627.github.io/qr-code-generator/) or hosting it locally as described in the Installation section.
 
 2. Enter the data for which you want to generate a QR code in the input field.
 
@@ -56,11 +56,7 @@ cd qr-code-generator
 
 ## Contributing
 
-Contributions to the QR Code Generator project are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or create a pull request on the [GitHub repository](https://github.com/kaushaldhrangad/qr-code-generator).
-
-## License
-
-This project is open-source and available under the [MIT License](https://github.com/kaushaldhrangad/qr-code-generator/blob/master/LICENSE).
+Contributions to the QR Code Generator project are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or create a pull request on the [GitHub repository](https://github.com/Tanishq1627/qr-code-generator).
 
  ## Feature - Under Development
 
@@ -69,5 +65,4 @@ I am pleased to announce that we are currently working on an innovative and powe
 ---
 Enjoy using the QR Code Generator! If you have any questions or need further assistance, feel free to reach out to the project's author or the community. Happy QR code generating!
 
-## 🔗 Links
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kaushaldhrangad/)
+
