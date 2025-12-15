@@ -2,17 +2,16 @@ const generatorDiv = document.querySelector(".generator");
 const generateBtn = generatorDiv.querySelector(".generator-form button");
 const qrInput = generatorDiv.querySelector(".generator-form input");
 const qrImg = generatorDiv.querySelector(".generator-img img");
-const downloadBtn = generatorDiv.querySelector(".generator-btn .btn-link"); //.btn-link
+const downloadBtn = generatorDiv.querySelector(".generator-btn .btn-link");
 
 let imgURL = '';
 
 generateBtn.addEventListener("click", () => {
     let qrValue = qrInput.value;
-    if (!qrValue.trim()) // if value is empty then stop.
+    if (!qrValue.trim()) 
         return;
 
     generateBtn.innerText = "Generating QR Code....";
-    // if the value is valid -> qr code generated using qr server API.
 
     imgURL = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${qrValue}`;
     qrImg.src = imgURL;

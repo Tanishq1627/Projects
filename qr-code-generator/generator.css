@@ -1,0 +1,75 @@
+.generator {
+    text-align: center;
+}
+
+.generator h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.generator p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.generator-form {
+    display: flex;
+    gap: 10px;
+}
+
+.generator-form input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.generator-form button {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: none;
+    background: #4facfe;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.generator-form button:hover {
+    background: #3b8de0;
+}
+
+.generator-img {
+    margin: 20px 0;
+    display: none;
+}
+
+.generator-img img {
+    width: 200px;
+    height: 200px;
+}
+
+.generator-btn {
+    display: none;
+}
+
+.generator-btn button {
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    background: #00c853;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.generator-btn button:hover {
+    background: #00a344;
+}
+
+.generator.active .generator-img,
+.generator.active .generator-btn {
+    display: block;
+}
