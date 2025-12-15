@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="full">
+    <div class="container">
+        <h1>Form Implementation</h1>
+        <form id="myForm">
+            <div class="first">
+                <label class="ct" for="name">First Name</label>
+                <input class="mp1 bor ic" type="text" id="fname" name="fname">
+                <span class="error" id="firstNameError"></span>
+            </div>
+            <div class="m1">
+                <label class="ct" for="lname">Last Name</label>
+                <input class="mp1 bor ic" type="text" id="lname" name="lname">
+            </div>
+            <div class="m1">
+                <label class="ct" for="email">Email</label>
+                <input class="m3 bor ic" type="email" id="email" name="email">
+            </div>
+            <div class="m1">
+                <label class="ct" for="password">Password</label>
+                <input class="mp2 bor ic" type="password" id="password" name="password">
+            </div>
+            <div class="m1">
+                <label class="ct" for="gender">Gender</label>
+                <input class="mr" type="radio" value="male" name="gender" /> Male
+                <input class="mp1" type="radio" value="female" name="gender" />Female
+                <input class="mp1" type="radio" value="others" name="gender" />Others
+            </div>
+            <div class="m1">
+                <label class="ct" for="hobbies">Hobbies</label>
+                <input class="mr1 ct" type="checkbox" value="cricket" name="hobbies" /> Cricket
+                <input class="mh" type="checkbox" value="football" name="hobbies" />Football
+                <input class="mh" type="checkbox" value="tennis" name="hobbies" />Tennis
+            </div>
+            <div class="m1">
+                <label class="ct" for="dob">Date of Birth</label>
+                <input class="bor ct" type="date" id="dob" name="dob">
+            </div>
+            <div class="m1">
+                <label class="ct" for="address">Address</label>
+                <textarea class="ml1 bor ic" rows="5" cols="20" id="address" name="address"></textarea>
+            </div>
+            <button class="mb ct bor" type="submit" id="sub">Submit</button>
+            <button class="ct bor" type="reset">Cancel</button>
+        </form>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="mr">First Name</th>
+                        <th class="mr">Last Name</th>
+                        <th class="mr">Email</th>
+                        <th class="mr">Password</th>
+                        <th class="mr">Gender</th>
+                        <th class="mr">Hobbies</th>
+                        <th class="mr">Date of Birth</th>
+                        <th class="mr">Address</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
